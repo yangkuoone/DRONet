@@ -1,0 +1,82 @@
+nohup: ignoring input
+######################################################################
+Embedding Method: GF, Evaluation Task: none
+######################################################################
+Loading training graph for learning embedding...
+Graph Loaded...
+2022-09-02 10:59:13.991510: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-09-02 10:59:14.145359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:1a:00.0
+2022-09-02 10:59:14.145984: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:1b:00.0
+2022-09-02 10:59:14.146541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:3d:00.0
+2022-09-02 10:59:14.147074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:3e:00.0
+2022-09-02 10:59:14.147606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:88:00.0
+2022-09-02 10:59:14.148132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:89:00.0
+2022-09-02 10:59:14.148668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 6 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:b1:00.0
+2022-09-02 10:59:14.149205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 7 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:b2:00.0
+2022-09-02 10:59:14.149335: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149397: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149450: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149502: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149554: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149608: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149661: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-09-02 10:59:14.149670: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-09-02 10:59:14.150168: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-09-02 10:59:14.178053: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+2022-09-02 10:59:14.182226: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561a3ea011c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-09-02 10:59:14.182287: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-09-02 10:59:15.373621: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561a3e460010 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-09-02 10:59:15.373699: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373739: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373754: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (2): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373768: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (3): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373781: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (4): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373793: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (5): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373806: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (6): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.373820: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (7): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-09-02 10:59:15.378729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-09-02 10:59:15.378784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/gf.py:47: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/gf.py:54: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/gf.py:57: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+total iter: 500
+step 0: cost: 48636.6
+step 50: cost: 220.294
+step 100: cost: 15.0998
+step 150: cost: 8.07662
+step 200: cost: 5.4712
+step 250: cost: 4.14213
+step 300: cost: 3.35434
+step 350: cost: 2.84162
+step 400: cost: 2.48542
+step 450: cost: 2.22566
+Saving embeddings...
+Embedding Learning Time: 8.37 s

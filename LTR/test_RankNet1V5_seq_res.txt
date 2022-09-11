@@ -1,0 +1,1521 @@
+nohup: ignoring input
+start_epoch:0, additional_epoch:100, lr:0.0005
+2022-09-05 10:38:07.200108: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-05 10:38:08 load from pickle file ./mydata/train_1v1.pkl
+2022-09-05 10:38:08 load from pickle file ./mydata/test_1v5.pkl
+checkpoint dir: /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16
+use device cuda:1
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0005
+    maximize: False
+    weight_decay: 0
+)
+/home/fsy/anaconda3/envs/geometric/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+sum_session
+++++++++++ End of batch, remaining pairs 319396.0
+====================
+ 2022-09-05 10:38:18 Epoch0, loss : 0.695763111114502 
+====================
+sum_session
+++++++++++ End of batch, remaining pairs 481000.0
+====================
+ 2022-09-05 10:38:21 Epoch1, loss : 0.6933651864528656 
+====================
+2022-09-05 10:38:21 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_1
+2022-09-05 10:38:21 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_1
+2022-09-05 10:38:21 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:25 Epoch 1: Eval Phase pairwise corss entropy loss 0.692334, total_paris 179950
+total test: 376
+hit@10: 0.5662714550366846
+hit@3: 0.161666391722134
+hit@1: 0.04824708866088716
+mrr: 0.18650205869418637
+2022-09-05 10:38:26 Eval Phase evaluate NDCG@1: 0.06798, NDCG@3: 0.12413, NDCG@5: 0.18954, NDCG@10: 0.29548, NDCG@30: 0.41089
+sum_session
+++++++++++ End of batch, remaining pairs 592416.0
+====================
+ 2022-09-05 10:38:29 Epoch2, loss : 0.6913546025753021 
+====================
+2022-09-05 10:38:29 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_2
+2022-09-05 10:38:29 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_2
+2022-09-05 10:38:29 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:33 Epoch 2: Eval Phase pairwise corss entropy loss 0.690507, total_paris 179950
+total test: 376
+hit@10: 0.5804390455728706
+hit@3: 0.16740241840230968
+hit@1: 0.051771024831099924
+mrr: 0.18900082153325726
+2022-09-05 10:38:33 Eval Phase evaluate NDCG@1: 0.07126, NDCG@3: 0.12945, NDCG@5: 0.19157, NDCG@10: 0.30326, NDCG@30: 0.41424
+sum_session
+++++++++++ End of batch, remaining pairs 287040.0
+====================
+ 2022-09-05 10:38:36 Epoch3, loss : 0.6882758736610413 
+====================
+2022-09-05 10:38:36 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_3
+2022-09-05 10:38:36 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_3
+2022-09-05 10:38:36 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:38 Epoch 3: Eval Phase pairwise corss entropy loss 0.688679, total_paris 179950
+total test: 376
+hit@10: 0.5784482128240591
+hit@3: 0.16493715897996042
+hit@1: 0.04674481453199416
+mrr: 0.18721277249188303
+2022-09-05 10:38:39 Eval Phase evaluate NDCG@1: 0.06813, NDCG@3: 0.12852, NDCG@5: 0.19433, NDCG@10: 0.30242, NDCG@30: 0.41546
+sum_session
+++++++++++ End of batch, remaining pairs 335412.0
+====================
+ 2022-09-05 10:38:40 Epoch4, loss : 0.6865324079990387 
+====================
+2022-09-05 10:38:40 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_4
+2022-09-05 10:38:40 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_4
+2022-09-05 10:38:40 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:43 Epoch 4: Eval Phase pairwise corss entropy loss 0.686901, total_paris 179950
+total test: 376
+hit@10: 0.5801720171887087
+hit@3: 0.16710158605766223
+hit@1: 0.04382561493726265
+mrr: 0.185222229189715
+2022-09-05 10:38:44 Eval Phase evaluate NDCG@1: 0.06375, NDCG@3: 0.13080, NDCG@5: 0.19451, NDCG@10: 0.30550, NDCG@30: 0.41591
+sum_session
+++++++++++ End of batch, remaining pairs 341732.0
+====================
+ 2022-09-05 10:38:47 Epoch5, loss : 0.68413907289505 
+====================
+2022-09-05 10:38:47 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_5
+2022-09-05 10:38:47 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_5
+2022-09-05 10:38:47 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:50 Epoch 5: Eval Phase pairwise corss entropy loss 0.685252, total_paris 179950
+total test: 376
+hit@10: 0.5789474438896671
+hit@3: 0.16357584829776947
+hit@1: 0.045994434592784426
+mrr: 0.18559474429629494
+2022-09-05 10:38:51 Eval Phase evaluate NDCG@1: 0.07292, NDCG@3: 0.13075, NDCG@5: 0.19815, NDCG@10: 0.30702, NDCG@30: 0.41919
+sum_session
+++++++++++ End of batch, remaining pairs 338276.0
+====================
+ 2022-09-05 10:38:54 Epoch6, loss : 0.6805210709571838 
+====================
+2022-09-05 10:38:54 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_6
+2022-09-05 10:38:54 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_6
+2022-09-05 10:38:54 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:38:58 Epoch 6: Eval Phase pairwise corss entropy loss 0.683458, total_paris 179950
+total test: 376
+hit@10: 0.5825291876989812
+hit@3: 0.16383863958449693
+hit@1: 0.04796825603625543
+mrr: 0.18722836746967939
+2022-09-05 10:38:59 Eval Phase evaluate NDCG@1: 0.07959, NDCG@3: 0.13542, NDCG@5: 0.20180, NDCG@10: 0.30945, NDCG@30: 0.42323
+sum_session
+++++++++++ End of batch, remaining pairs 244114.0
+====================
+ 2022-09-05 10:39:02 Epoch7, loss : 0.6774793267250061 
+====================
+2022-09-05 10:39:02 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_7
+2022-09-05 10:39:02 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_7
+2022-09-05 10:39:02 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:05 Epoch 7: Eval Phase pairwise corss entropy loss 0.681852, total_paris 179950
+total test: 376
+hit@10: 0.5855888225535398
+hit@3: 0.1628550191859829
+hit@1: 0.050912784911635374
+mrr: 0.18926279278614253
+2022-09-05 10:39:06 Eval Phase evaluate NDCG@1: 0.08028, NDCG@3: 0.13856, NDCG@5: 0.20566, NDCG@10: 0.31175, NDCG@30: 0.42455
+sum_session
+++++++++++ End of batch, remaining pairs 563884.0
+====================
+ 2022-09-05 10:39:09 Epoch8, loss : 0.6758070886135101 
+====================
+2022-09-05 10:39:09 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_8
+2022-09-05 10:39:09 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_8
+2022-09-05 10:39:09 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:13 Epoch 8: Eval Phase pairwise corss entropy loss 0.679972, total_paris 179950
+total test: 376
+hit@10: 0.6016664664452483
+hit@3: 0.17295718061793156
+hit@1: 0.05398975738477207
+mrr: 0.197042648847321
+2022-09-05 10:39:14 Eval Phase evaluate NDCG@1: 0.08929, NDCG@3: 0.15202, NDCG@5: 0.21360, NDCG@10: 0.32578, NDCG@30: 0.43396
+sum_session
+++++++++++ End of batch, remaining pairs 649484.0
+====================
+ 2022-09-05 10:39:17 Epoch9, loss : 0.6741099953651428 
+====================
+2022-09-05 10:39:17 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_9
+2022-09-05 10:39:17 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_9
+2022-09-05 10:39:17 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:20 Epoch 9: Eval Phase pairwise corss entropy loss 0.678365, total_paris 179950
+total test: 376
+hit@10: 0.6021863993267709
+hit@3: 0.17490753522786065
+hit@1: 0.053016442526914016
+mrr: 0.1987958306679547
+2022-09-05 10:39:21 Eval Phase evaluate NDCG@1: 0.08517, NDCG@3: 0.15361, NDCG@5: 0.21798, NDCG@10: 0.32792, NDCG@30: 0.43551
+sum_session
+++++++++++ End of batch, remaining pairs 256868.0
+====================
+ 2022-09-05 10:39:24 Epoch10, loss : 0.6737044453620911 
+====================
+2022-09-05 10:39:24 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_10
+2022-09-05 10:39:24 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_10
+2022-09-05 10:39:24 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:28 Epoch 10: Eval Phase pairwise corss entropy loss 0.676640, total_paris 179950
+total test: 376
+hit@10: 0.6071553222478215
+hit@3: 0.18000505295835714
+hit@1: 0.055676016994999133
+mrr: 0.20154626874072645
+2022-09-05 10:39:29 Eval Phase evaluate NDCG@1: 0.08924, NDCG@3: 0.15711, NDCG@5: 0.22492, NDCG@10: 0.33113, NDCG@30: 0.43941
+sum_session
+++++++++++ End of batch, remaining pairs 352726.0
+====================
+ 2022-09-05 10:39:32 Epoch11, loss : 0.6709836423397064 
+====================
+2022-09-05 10:39:32 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_11
+2022-09-05 10:39:32 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_11
+2022-09-05 10:39:32 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:35 Epoch 11: Eval Phase pairwise corss entropy loss 0.674852, total_paris 179950
+total test: 376
+hit@10: 0.605680637313197
+hit@3: 0.1854173242498524
+hit@1: 0.052959451645455055
+mrr: 0.2015311313656172
+2022-09-05 10:39:36 Eval Phase evaluate NDCG@1: 0.08899, NDCG@3: 0.16153, NDCG@5: 0.22841, NDCG@10: 0.33090, NDCG@30: 0.44116
+sum_session
+++++++++++ End of batch, remaining pairs 247704.0
+====================
+ 2022-09-05 10:39:39 Epoch12, loss : 0.669602245092392 
+====================
+2022-09-05 10:39:39 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_12
+2022-09-05 10:39:39 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_12
+2022-09-05 10:39:39 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:43 Epoch 12: Eval Phase pairwise corss entropy loss 0.673127, total_paris 179950
+total test: 376
+hit@10: 0.6049251428077025
+hit@3: 0.19416693880427732
+hit@1: 0.053254959919686734
+mrr: 0.20231453305002753
+2022-09-05 10:39:44 Eval Phase evaluate NDCG@1: 0.09031, NDCG@3: 0.16640, NDCG@5: 0.22979, NDCG@10: 0.33153, NDCG@30: 0.44187
+sum_session
+++++++++++ End of batch, remaining pairs 583854.0
+====================
+ 2022-09-05 10:39:47 Epoch13, loss : 0.6683496832847595 
+====================
+2022-09-05 10:39:47 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_13
+2022-09-05 10:39:47 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_13
+2022-09-05 10:39:47 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:50 Epoch 13: Eval Phase pairwise corss entropy loss 0.671552, total_paris 179950
+total test: 376
+hit@10: 0.6035552508793
+hit@3: 0.20509847181027846
+hit@1: 0.057919769105772526
+mrr: 0.20630973613043171
+2022-09-05 10:39:51 Eval Phase evaluate NDCG@1: 0.09724, NDCG@3: 0.17561, NDCG@5: 0.23380, NDCG@10: 0.33468, NDCG@30: 0.44580
+sum_session
+++++++++++ End of batch, remaining pairs 262122.0
+====================
+ 2022-09-05 10:39:54 Epoch14, loss : 0.665981262922287 
+====================
+2022-09-05 10:39:54 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_14
+2022-09-05 10:39:54 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_14
+2022-09-05 10:39:54 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:39:58 Epoch 14: Eval Phase pairwise corss entropy loss 0.670008, total_paris 179950
+total test: 376
+hit@10: 0.6045145973838593
+hit@3: 0.20509847181027843
+hit@1: 0.058806293928467555
+mrr: 0.2073598553078418
+2022-09-05 10:39:59 Eval Phase evaluate NDCG@1: 0.09750, NDCG@3: 0.17579, NDCG@5: 0.23644, NDCG@10: 0.33580, NDCG@30: 0.44789
+sum_session
+++++++++++ End of batch, remaining pairs 234088.0
+====================
+ 2022-09-05 10:40:02 Epoch15, loss : 0.6629555225372314 
+====================
+2022-09-05 10:40:02 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_15
+2022-09-05 10:40:02 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_15
+2022-09-05 10:40:02 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:05 Epoch 15: Eval Phase pairwise corss entropy loss 0.668343, total_paris 179950
+total test: 376
+hit@10: 0.6100110512845685
+hit@3: 0.2079796774840373
+hit@1: 0.058806293928467555
+mrr: 0.20880696344295563
+2022-09-05 10:40:06 Eval Phase evaluate NDCG@1: 0.09750, NDCG@3: 0.17808, NDCG@5: 0.24043, NDCG@10: 0.33994, NDCG@30: 0.44983
+sum_session
+++++++++++ End of batch, remaining pairs 325048.0
+====================
+ 2022-09-05 10:40:09 Epoch16, loss : 0.6587572693824768 
+====================
+2022-09-05 10:40:09 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_16
+2022-09-05 10:40:09 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_16
+2022-09-05 10:40:09 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:13 Epoch 16: Eval Phase pairwise corss entropy loss 0.666696, total_paris 179950
+total test: 376
+hit@10: 0.613156793692279
+hit@3: 0.20769472307674247
+hit@1: 0.059692818751162585
+mrr: 0.20991080747644952
+2022-09-05 10:40:14 Eval Phase evaluate NDCG@1: 0.09776, NDCG@3: 0.17874, NDCG@5: 0.24258, NDCG@10: 0.34180, NDCG@30: 0.45079
+sum_session
+++++++++++ End of batch, remaining pairs 617044.0
+====================
+ 2022-09-05 10:40:17 Epoch17, loss : 0.6643261015415192 
+====================
+2022-09-05 10:40:17 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_17
+2022-09-05 10:40:17 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_17
+2022-09-05 10:40:17 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:20 Epoch 17: Eval Phase pairwise corss entropy loss 0.665077, total_paris 179950
+total test: 376
+hit@10: 0.6146316891644025
+hit@3: 0.2085812478994375
+hit@1: 0.06173182584336116
+mrr: 0.2119276742675649
+2022-09-05 10:40:21 Eval Phase evaluate NDCG@1: 0.10574, NDCG@3: 0.18186, NDCG@5: 0.24561, NDCG@10: 0.34519, NDCG@30: 0.45403
+sum_session
+++++++++++ End of batch, remaining pairs 569456.0
+====================
+ 2022-09-05 10:40:24 Epoch18, loss : 0.6585224568843842 
+====================
+2022-09-05 10:40:24 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_18
+2022-09-05 10:40:24 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_18
+2022-09-05 10:40:24 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:28 Epoch 18: Eval Phase pairwise corss entropy loss 0.663433, total_paris 179950
+total test: 376
+hit@10: 0.6158459975145837
+hit@3: 0.21301387201291272
+hit@1: 0.05907225137527606
+mrr: 0.21181038692982926
+2022-09-05 10:40:29 Eval Phase evaluate NDCG@1: 0.10308, NDCG@3: 0.18516, NDCG@5: 0.24584, NDCG@10: 0.34616, NDCG@30: 0.45481
+sum_session
+++++++++++ End of batch, remaining pairs 525070.0
+====================
+ 2022-09-05 10:40:32 Epoch19, loss : 0.6530658900737762 
+====================
+2022-09-05 10:40:32 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_19
+2022-09-05 10:40:32 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_19
+2022-09-05 10:40:32 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:35 Epoch 19: Eval Phase pairwise corss entropy loss 0.662222, total_paris 179950
+total test: 376
+hit@10: 0.6191019614088454
+hit@3: 0.21265926208383473
+hit@1: 0.06106693222633989
+mrr: 0.2130473727540125
+2022-09-05 10:40:36 Eval Phase evaluate NDCG@1: 0.10972, NDCG@3: 0.18586, NDCG@5: 0.24807, NDCG@10: 0.34882, NDCG@30: 0.45630
+sum_session
+++++++++++ End of batch, remaining pairs 453434.0
+====================
+ 2022-09-05 10:40:39 Epoch20, loss : 0.6522188782691956 
+====================
+2022-09-05 10:40:39 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_20
+2022-09-05 10:40:39 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_20
+2022-09-05 10:40:39 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:43 Epoch 20: Eval Phase pairwise corss entropy loss 0.661007, total_paris 179950
+total test: 376
+hit@10: 0.6193235926145193
+hit@3: 0.21386118516075778
+hit@1: 0.06372650669442499
+mrr: 0.2144996055554761
+2022-09-05 10:40:44 Eval Phase evaluate NDCG@1: 0.11308, NDCG@3: 0.18773, NDCG@5: 0.24979, NDCG@10: 0.35018, NDCG@30: 0.45732
+sum_session
+++++++++++ End of batch, remaining pairs 189656.0
+====================
+ 2022-09-05 10:40:47 Epoch21, loss : 0.6540176272392273 
+====================
+2022-09-05 10:40:47 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_21
+2022-09-05 10:40:47 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_21
+2022-09-05 10:40:47 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:50 Epoch 21: Eval Phase pairwise corss entropy loss 0.659818, total_paris 179950
+total test: 376
+hit@10: 0.6197890181464342
+hit@3: 0.21512764919317925
+hit@1: 0.06461303151712003
+mrr: 0.21480582033768475
+2022-09-05 10:40:51 Eval Phase evaluate NDCG@1: 0.11574, NDCG@3: 0.18903, NDCG@5: 0.25047, NDCG@10: 0.34999, NDCG@30: 0.45773
+sum_session
+++++++++++ End of batch, remaining pairs 469966.0
+====================
+ 2022-09-05 10:40:54 Epoch22, loss : 0.6491004526615143 
+====================
+2022-09-05 10:40:54 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_22
+2022-09-05 10:40:54 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_22
+2022-09-05 10:40:54 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:40:58 Epoch 22: Eval Phase pairwise corss entropy loss 0.658651, total_paris 179950
+total test: 376
+hit@10: 0.6230774407167716
+hit@3: 0.21588119529247005
+hit@1: 0.06487898896392855
+mrr: 0.21546348487958042
+2022-09-05 10:40:59 Eval Phase evaluate NDCG@1: 0.11606, NDCG@3: 0.19010, NDCG@5: 0.25072, NDCG@10: 0.35263, NDCG@30: 0.45862
+sum_session
+++++++++++ End of batch, remaining pairs 257058.0
+====================
+ 2022-09-05 10:41:02 Epoch23, loss : 0.6491504013538361 
+====================
+2022-09-05 10:41:02 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_23
+2022-09-05 10:41:02 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_23
+2022-09-05 10:41:02 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:05 Epoch 23: Eval Phase pairwise corss entropy loss 0.657517, total_paris 179950
+total test: 376
+hit@10: 0.6278587077653259
+hit@3: 0.21623580522154803
+hit@1: 0.06366001733272288
+mrr: 0.2148923113555684
+2022-09-05 10:41:06 Eval Phase evaluate NDCG@1: 0.11456, NDCG@3: 0.18955, NDCG@5: 0.25099, NDCG@10: 0.35447, NDCG@30: 0.45867
+sum_session
+++++++++++ End of batch, remaining pairs 309470.0
+====================
+ 2022-09-05 10:41:09 Epoch24, loss : 0.6471396088600159 
+====================
+2022-09-05 10:41:09 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_24
+2022-09-05 10:41:09 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_24
+2022-09-05 10:41:09 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:13 Epoch 24: Eval Phase pairwise corss entropy loss 0.656367, total_paris 179950
+total test: 376
+hit@10: 0.6282557814884322
+hit@3: 0.21738322163492188
+hit@1: 0.06631959180080797
+mrr: 0.21754194890731957
+2022-09-05 10:41:14 Eval Phase evaluate NDCG@1: 0.11864, NDCG@3: 0.19138, NDCG@5: 0.25568, NDCG@10: 0.35729, NDCG@30: 0.46207
+sum_session
+++++++++++ End of batch, remaining pairs 537620.0
+====================
+ 2022-09-05 10:41:17 Epoch25, loss : 0.6443072259426117 
+====================
+2022-09-05 10:41:17 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_25
+2022-09-05 10:41:17 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_25
+2022-09-05 10:41:17 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:20 Epoch 25: Eval Phase pairwise corss entropy loss 0.655162, total_paris 179950
+total test: 376
+hit@10: 0.6277808574762742
+hit@3: 0.22203747695407086
+hit@1: 0.06631959180080797
+mrr: 0.2180966137522987
+2022-09-05 10:41:21 Eval Phase evaluate NDCG@1: 0.11833, NDCG@3: 0.19441, NDCG@5: 0.25788, NDCG@10: 0.35743, NDCG@30: 0.46268
+sum_session
+++++++++++ End of batch, remaining pairs 555482.0
+====================
+ 2022-09-05 10:41:24 Epoch26, loss : 0.6434473395347595 
+====================
+2022-09-05 10:41:24 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_26
+2022-09-05 10:41:24 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_26
+2022-09-05 10:41:24 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:26 Epoch 26: Eval Phase pairwise corss entropy loss 0.653973, total_paris 179950
+total test: 376
+hit@10: 0.6290233354474757
+hit@3: 0.22099264412732317
+hit@1: 0.06631959180080797
+mrr: 0.21849836541933323
+2022-09-05 10:41:27 Eval Phase evaluate NDCG@1: 0.11833, NDCG@3: 0.19361, NDCG@5: 0.25768, NDCG@10: 0.35884, NDCG@30: 0.46317
+sum_session
+++++++++++ End of batch, remaining pairs 308016.0
+====================
+ 2022-09-05 10:41:28 Epoch27, loss : 0.6421993374824524 
+====================
+2022-09-05 10:41:28 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_27
+2022-09-05 10:41:28 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_27
+2022-09-05 10:41:28 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:29 Epoch 27: Eval Phase pairwise corss entropy loss 0.652816, total_paris 179950
+total test: 376
+hit@10: 0.6283394448699681
+hit@3: 0.22272136753157845
+hit@1: 0.06587632938946046
+mrr: 0.21851309277166042
+2022-09-05 10:41:30 Eval Phase evaluate NDCG@1: 0.11833, NDCG@3: 0.19572, NDCG@5: 0.25797, NDCG@10: 0.35948, NDCG@30: 0.46377
+sum_session
+++++++++++ End of batch, remaining pairs 299378.0
+====================
+ 2022-09-05 10:41:33 Epoch28, loss : 0.6434976756572723 
+====================
+2022-09-05 10:41:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_28
+2022-09-05 10:41:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_28
+2022-09-05 10:41:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:37 Epoch 28: Eval Phase pairwise corss entropy loss 0.651657, total_paris 179950
+total test: 376
+hit@10: 0.6326290715187495
+hit@3: 0.22327101292164933
+hit@1: 0.0667628542121555
+mrr: 0.21949144050656597
+2022-09-05 10:41:38 Eval Phase evaluate NDCG@1: 0.11947, NDCG@3: 0.19616, NDCG@5: 0.25968, NDCG@10: 0.36168, NDCG@30: 0.46476
+sum_session
+++++++++++ End of batch, remaining pairs 210718.0
+====================
+ 2022-09-05 10:41:41 Epoch29, loss : 0.6418403387069702 
+====================
+2022-09-05 10:41:41 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_29
+2022-09-05 10:41:41 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_29
+2022-09-05 10:41:41 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:44 Epoch 29: Eval Phase pairwise corss entropy loss 0.650787, total_paris 179950
+total test: 376
+hit@10: 0.6348232204549198
+hit@3: 0.22353697036845785
+hit@1: 0.06742774782917678
+mrr: 0.22014329268780214
+2022-09-05 10:41:45 Eval Phase evaluate NDCG@1: 0.12075, NDCG@3: 0.19711, NDCG@5: 0.26089, NDCG@10: 0.36300, NDCG@30: 0.46542
+sum_session
+++++++++++ End of batch, remaining pairs 579050.0
+====================
+ 2022-09-05 10:41:48 Epoch30, loss : 0.6408980488777161 
+====================
+2022-09-05 10:41:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_30
+2022-09-05 10:41:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_30
+2022-09-05 10:41:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:52 Epoch 30: Eval Phase pairwise corss entropy loss 0.649897, total_paris 179950
+total test: 376
+hit@10: 0.6359342179090024
+hit@3: 0.22774796327625926
+hit@1: 0.06742774782917678
+mrr: 0.22043829416292493
+2022-09-05 10:41:53 Eval Phase evaluate NDCG@1: 0.12075, NDCG@3: 0.19964, NDCG@5: 0.26101, NDCG@10: 0.36328, NDCG@30: 0.46562
+sum_session
+++++++++++ End of batch, remaining pairs 269826.0
+====================
+ 2022-09-05 10:41:56 Epoch31, loss : 0.6416812539100647 
+====================
+2022-09-05 10:41:56 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_31
+2022-09-05 10:41:56 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_31
+2022-09-05 10:41:56 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:41:59 Epoch 31: Eval Phase pairwise corss entropy loss 0.649021, total_paris 179950
+total test: 376
+hit@10: 0.6374302285473004
+hit@3: 0.23187638769567245
+hit@1: 0.06742774782917678
+mrr: 0.22105695010641346
+2022-09-05 10:42:00 Eval Phase evaluate NDCG@1: 0.12075, NDCG@3: 0.20329, NDCG@5: 0.26195, NDCG@10: 0.36482, NDCG@30: 0.46614
+sum_session
+++++++++++ End of batch, remaining pairs 199974.0
+====================
+ 2022-09-05 10:42:03 Epoch32, loss : 0.6367930173873901 
+====================
+2022-09-05 10:42:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_32
+2022-09-05 10:42:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_32
+2022-09-05 10:42:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:07 Epoch 32: Eval Phase pairwise corss entropy loss 0.648162, total_paris 179950
+total test: 376
+hit@10: 0.6380951221643216
+hit@3: 0.2330399515254597
+hit@1: 0.06742774782917678
+mrr: 0.22114468984268063
+2022-09-05 10:42:08 Eval Phase evaluate NDCG@1: 0.12075, NDCG@3: 0.20360, NDCG@5: 0.26184, NDCG@10: 0.36488, NDCG@30: 0.46597
+sum_session
+++++++++++ End of batch, remaining pairs 476286.0
+====================
+ 2022-09-05 10:42:11 Epoch33, loss : 0.6337438523769379 
+====================
+2022-09-05 10:42:11 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_33
+2022-09-05 10:42:11 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_33
+2022-09-05 10:42:11 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:15 Epoch 33: Eval Phase pairwise corss entropy loss 0.647294, total_paris 179950
+total test: 376
+hit@10: 0.6355685264196407
+hit@3: 0.2333945614545377
+hit@1: 0.06809264144619805
+mrr: 0.2217883322918179
+2022-09-05 10:42:15 Eval Phase evaluate NDCG@1: 0.12327, NDCG@3: 0.20407, NDCG@5: 0.26310, NDCG@10: 0.36515, NDCG@30: 0.46687
+sum_session
+++++++++++ End of batch, remaining pairs 346720.0
+====================
+ 2022-09-05 10:42:18 Epoch34, loss : 0.6344029903411865 
+====================
+2022-09-05 10:42:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_34
+2022-09-05 10:42:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_34
+2022-09-05 10:42:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:22 Epoch 34: Eval Phase pairwise corss entropy loss 0.646467, total_paris 179950
+total test: 376
+hit@10: 0.6333896731582283
+hit@3: 0.2333945614545377
+hit@1: 0.06942242868024061
+mrr: 0.22313295316440074
+2022-09-05 10:42:23 Eval Phase evaluate NDCG@1: 0.12593, NDCG@3: 0.20537, NDCG@5: 0.26470, NDCG@10: 0.36600, NDCG@30: 0.46817
+sum_session
+++++++++++ End of batch, remaining pairs 375214.0
+====================
+ 2022-09-05 10:42:26 Epoch35, loss : 0.6315584182739258 
+====================
+2022-09-05 10:42:26 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_35
+2022-09-05 10:42:26 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_35
+2022-09-05 10:42:26 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:30 Epoch 35: Eval Phase pairwise corss entropy loss 0.645647, total_paris 179950
+total test: 376
+hit@10: 0.6327247795412069
+hit@3: 0.22940519975241006
+hit@1: 0.06942242868024061
+mrr: 0.22263750838806953
+2022-09-05 10:42:30 Eval Phase evaluate NDCG@1: 0.12593, NDCG@3: 0.20295, NDCG@5: 0.26378, NDCG@10: 0.36557, NDCG@30: 0.46785
+sum_session
+++++++++++ End of batch, remaining pairs 237490.0
+====================
+ 2022-09-05 10:42:34 Epoch36, loss : 0.6335623264312744 
+====================
+2022-09-05 10:42:34 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_36
+2022-09-05 10:42:34 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_36
+2022-09-05 10:42:34 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:37 Epoch 36: Eval Phase pairwise corss entropy loss 0.644832, total_paris 179950
+total test: 376
+hit@10: 0.6286246022362424
+hit@3: 0.2294426585477352
+hit@1: 0.06942242868024061
+mrr: 0.22254506138975821
+2022-09-05 10:42:38 Eval Phase evaluate NDCG@1: 0.12593, NDCG@3: 0.20217, NDCG@5: 0.26369, NDCG@10: 0.36389, NDCG@30: 0.46736
+sum_session
+++++++++++ End of batch, remaining pairs 492086.0
+====================
+ 2022-09-05 10:42:41 Epoch37, loss : 0.6280197203159332 
+====================
+2022-09-05 10:42:41 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_37
+2022-09-05 10:42:41 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_37
+2022-09-05 10:42:41 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:45 Epoch 37: Eval Phase pairwise corss entropy loss 0.644017, total_paris 179950
+total test: 376
+hit@10: 0.6310293008178026
+hit@3: 0.23010755216475648
+hit@1: 0.07075221591428314
+mrr: 0.22279911145026862
+2022-09-05 10:42:46 Eval Phase evaluate NDCG@1: 0.12706, NDCG@3: 0.20293, NDCG@5: 0.26432, NDCG@10: 0.36437, NDCG@30: 0.46762
+sum_session
+++++++++++ End of batch, remaining pairs 234546.0
+====================
+ 2022-09-05 10:42:49 Epoch38, loss : 0.6413798630237579 
+====================
+2022-09-05 10:42:49 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_38
+2022-09-05 10:42:49 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_38
+2022-09-05 10:42:49 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:42:52 Epoch 38: Eval Phase pairwise corss entropy loss 0.643232, total_paris 179950
+total test: 376
+hit@10: 0.6326895200312134
+hit@3: 0.22877776493071394
+hit@1: 0.07097384711995691
+mrr: 0.22333071457246362
+2022-09-05 10:42:53 Eval Phase evaluate NDCG@1: 0.12740, NDCG@3: 0.20317, NDCG@5: 0.26470, NDCG@10: 0.36471, NDCG@30: 0.46836
+sum_session
+++++++++++ End of batch, remaining pairs 245352.0
+====================
+ 2022-09-05 10:42:56 Epoch39, loss : 0.6317440271377563 
+====================
+2022-09-05 10:42:56 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_39
+2022-09-05 10:42:56 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_39
+2022-09-05 10:42:56 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:00 Epoch 39: Eval Phase pairwise corss entropy loss 0.642646, total_paris 179950
+total test: 376
+hit@10: 0.6329111512368871
+hit@3: 0.23010755216475648
+hit@1: 0.07097384711995691
+mrr: 0.22361537723305672
+2022-09-05 10:43:01 Eval Phase evaluate NDCG@1: 0.12740, NDCG@3: 0.20421, NDCG@5: 0.26538, NDCG@10: 0.36520, NDCG@30: 0.46886
+sum_session
+++++++++++ End of batch, remaining pairs 267524.0
+====================
+ 2022-09-05 10:43:04 Epoch40, loss : 0.6370367407798767 
+====================
+2022-09-05 10:43:04 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_40
+2022-09-05 10:43:04 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_40
+2022-09-05 10:43:04 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:08 Epoch 40: Eval Phase pairwise corss entropy loss 0.642063, total_paris 179950
+total test: 376
+hit@10: 0.6323032485013247
+hit@3: 0.23010755216475648
+hit@1: 0.07097384711995691
+mrr: 0.22396997044863315
+2022-09-05 10:43:08 Eval Phase evaluate NDCG@1: 0.12740, NDCG@3: 0.20459, NDCG@5: 0.26820, NDCG@10: 0.36557, NDCG@30: 0.46913
+sum_session
+++++++++++ End of batch, remaining pairs 334716.0
+====================
+ 2022-09-05 10:43:12 Epoch41, loss : 0.6284810900688171 
+====================
+2022-09-05 10:43:12 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_41
+2022-09-05 10:43:12 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_41
+2022-09-05 10:43:12 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:15 Epoch 41: Eval Phase pairwise corss entropy loss 0.641483, total_paris 179950
+total test: 376
+hit@10: 0.634741191763736
+hit@3: 0.2309349753326052
+hit@1: 0.0683142726518718
+mrr: 0.22281857960449852
+2022-09-05 10:43:16 Eval Phase evaluate NDCG@1: 0.12474, NDCG@3: 0.20377, NDCG@5: 0.26836, NDCG@10: 0.36562, NDCG@30: 0.46849
+sum_session
+++++++++++ End of batch, remaining pairs 239644.0
+====================
+ 2022-09-05 10:43:19 Epoch42, loss : 0.6275707185268402 
+====================
+2022-09-05 10:43:19 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_42
+2022-09-05 10:43:19 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_42
+2022-09-05 10:43:19 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:23 Epoch 42: Eval Phase pairwise corss entropy loss 0.640904, total_paris 179950
+total test: 376
+hit@10: 0.6365142414091262
+hit@3: 0.23288216378245324
+hit@1: 0.0683142726518718
+mrr: 0.2232902993402025
+2022-09-05 10:43:24 Eval Phase evaluate NDCG@1: 0.12474, NDCG@3: 0.20552, NDCG@5: 0.26984, NDCG@10: 0.36716, NDCG@30: 0.46913
+sum_session
+++++++++++ End of batch, remaining pairs 548850.0
+====================
+ 2022-09-05 10:43:27 Epoch43, loss : 0.623365968465805 
+====================
+2022-09-05 10:43:27 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_43
+2022-09-05 10:43:27 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_43
+2022-09-05 10:43:27 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:30 Epoch 43: Eval Phase pairwise corss entropy loss 0.640303, total_paris 179950
+total test: 376
+hit@10: 0.6360709789977786
+hit@3: 0.23376868860514824
+hit@1: 0.06742774782917678
+mrr: 0.22339605203955645
+2022-09-05 10:43:31 Eval Phase evaluate NDCG@1: 0.12345, NDCG@3: 0.20633, NDCG@5: 0.27062, NDCG@10: 0.36756, NDCG@30: 0.46954
+sum_session
+++++++++++ End of batch, remaining pairs 573872.0
+====================
+ 2022-09-05 10:43:34 Epoch44, loss : 0.6297444403171539 
+====================
+2022-09-05 10:43:34 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_44
+2022-09-05 10:43:34 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_44
+2022-09-05 10:43:34 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:38 Epoch 44: Eval Phase pairwise corss entropy loss 0.639728, total_paris 179950
+total test: 376
+hit@10: 0.634741191763736
+hit@3: 0.23376868860514824
+hit@1: 0.06742774782917678
+mrr: 0.2235297527052779
+2022-09-05 10:43:39 Eval Phase evaluate NDCG@1: 0.12345, NDCG@3: 0.20714, NDCG@5: 0.27165, NDCG@10: 0.36739, NDCG@30: 0.46990
+sum_session
+++++++++++ End of batch, remaining pairs 331734.0
+====================
+ 2022-09-05 10:43:42 Epoch45, loss : 0.6235361993312836 
+====================
+2022-09-05 10:43:42 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_45
+2022-09-05 10:43:42 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_45
+2022-09-05 10:43:42 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:46 Epoch 45: Eval Phase pairwise corss entropy loss 0.639164, total_paris 179950
+total test: 376
+hit@10: 0.6363664872720103
+hit@3: 0.22980149002358796
+hit@1: 0.06742774782917678
+mrr: 0.2233739648924802
+2022-09-05 10:43:47 Eval Phase evaluate NDCG@1: 0.12345, NDCG@3: 0.20533, NDCG@5: 0.27199, NDCG@10: 0.36709, NDCG@30: 0.46982
+sum_session
+++++++++++ End of batch, remaining pairs 241522.0
+====================
+ 2022-09-05 10:43:50 Epoch46, loss : 0.626696914434433 
+====================
+2022-09-05 10:43:50 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_46
+2022-09-05 10:43:50 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_46
+2022-09-05 10:43:50 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:43:53 Epoch 46: Eval Phase pairwise corss entropy loss 0.638608, total_paris 179950
+total test: 376
+hit@10: 0.6345047851443507
+hit@3: 0.23084632285033566
+hit@1: 0.06742774782917678
+mrr: 0.2234374385378964
+2022-09-05 10:43:54 Eval Phase evaluate NDCG@1: 0.12345, NDCG@3: 0.20586, NDCG@5: 0.27214, NDCG@10: 0.36681, NDCG@30: 0.47001
+sum_session
+++++++++++ End of batch, remaining pairs 302562.0
+====================
+ 2022-09-05 10:43:57 Epoch47, loss : 0.622130274772644 
+====================
+2022-09-05 10:43:57 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_47
+2022-09-05 10:43:57 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_47
+2022-09-05 10:43:57 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:01 Epoch 47: Eval Phase pairwise corss entropy loss 0.638063, total_paris 179950
+total test: 376
+hit@10: 0.6353913099670458
+hit@3: 0.23084632285033566
+hit@1: 0.06742774782917678
+mrr: 0.2233833556085458
+2022-09-05 10:44:02 Eval Phase evaluate NDCG@1: 0.12345, NDCG@3: 0.20570, NDCG@5: 0.27172, NDCG@10: 0.36702, NDCG@30: 0.47004
+sum_session
+++++++++++ End of batch, remaining pairs 485030.0
+====================
+ 2022-09-05 10:44:05 Epoch48, loss : 0.6231053173542023 
+====================
+2022-09-05 10:44:05 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_48
+2022-09-05 10:44:05 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_48
+2022-09-05 10:44:05 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:08 Epoch 48: Eval Phase pairwise corss entropy loss 0.637501, total_paris 179950
+total test: 376
+hit@10: 0.638050884435131
+hit@3: 0.23128958526168317
+hit@1: 0.06787101024052429
+mrr: 0.22388003794494385
+2022-09-05 10:44:09 Eval Phase evaluate NDCG@1: 0.12611, NDCG@3: 0.20554, NDCG@5: 0.27260, NDCG@10: 0.36832, NDCG@30: 0.47056
+sum_session
+++++++++++ End of batch, remaining pairs 217628.0
+====================
+ 2022-09-05 10:44:12 Epoch49, loss : 0.6272326409816742 
+====================
+2022-09-05 10:44:12 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_49
+2022-09-05 10:44:12 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_49
+2022-09-05 10:44:12 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:16 Epoch 49: Eval Phase pairwise corss entropy loss 0.637093, total_paris 179950
+total test: 376
+hit@10: 0.6365733430639725
+hit@3: 0.23182150015530015
+hit@1: 0.06793145511479895
+mrr: 0.22390727471398905
+2022-09-05 10:44:17 Eval Phase evaluate NDCG@1: 0.12744, NDCG@3: 0.20645, NDCG@5: 0.27307, NDCG@10: 0.36796, NDCG@30: 0.47066
+sum_session
+++++++++++ End of batch, remaining pairs 237354.0
+====================
+ 2022-09-05 10:44:20 Epoch50, loss : 0.6277762651443481 
+====================
+2022-09-05 10:44:20 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_50
+2022-09-05 10:44:20 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_50
+2022-09-05 10:44:20 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:24 Epoch 50: Eval Phase pairwise corss entropy loss 0.636688, total_paris 179950
+total test: 376
+hit@10: 0.6355095132767385
+hit@3: 0.23448107462338527
+hit@1: 0.06793145511479895
+mrr: 0.2242701861181793
+2022-09-05 10:44:25 Eval Phase evaluate NDCG@1: 0.12744, NDCG@3: 0.20824, NDCG@5: 0.27321, NDCG@10: 0.36814, NDCG@30: 0.47098
+sum_session
+++++++++++ End of batch, remaining pairs 346928.0
+====================
+ 2022-09-05 10:44:28 Epoch51, loss : 0.6197435557842255 
+====================
+2022-09-05 10:44:28 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_51
+2022-09-05 10:44:28 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_51
+2022-09-05 10:44:28 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:31 Epoch 51: Eval Phase pairwise corss entropy loss 0.636280, total_paris 179950
+total test: 376
+hit@10: 0.6345121728512065
+hit@3: 0.23448107462338527
+hit@1: 0.06793145511479895
+mrr: 0.22405620881675076
+2022-09-05 10:44:32 Eval Phase evaluate NDCG@1: 0.12744, NDCG@3: 0.20795, NDCG@5: 0.27259, NDCG@10: 0.36749, NDCG@30: 0.47081
+sum_session
+++++++++++ End of batch, remaining pairs 242200.0
+====================
+ 2022-09-05 10:44:35 Epoch52, loss : 0.6135360896587372 
+====================
+2022-09-05 10:44:35 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_52
+2022-09-05 10:44:35 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_52
+2022-09-05 10:44:35 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:39 Epoch 52: Eval Phase pairwise corss entropy loss 0.635865, total_paris 179950
+total test: 376
+hit@10: 0.6338472792341853
+hit@3: 0.23581086185742786
+hit@1: 0.06912826362543725
+mrr: 0.2247232571735786
+2022-09-05 10:44:40 Eval Phase evaluate NDCG@1: 0.13235, NDCG@3: 0.21028, NDCG@5: 0.27342, NDCG@10: 0.36861, NDCG@30: 0.47207
+sum_session
+++++++++++ End of batch, remaining pairs 217524.0
+====================
+ 2022-09-05 10:44:43 Epoch53, loss : 0.6140828728675842 
+====================
+2022-09-05 10:44:43 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_53
+2022-09-05 10:44:43 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_53
+2022-09-05 10:44:43 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:47 Epoch 53: Eval Phase pairwise corss entropy loss 0.635453, total_paris 179950
+total test: 376
+hit@10: 0.6338472792341853
+hit@3: 0.23448107462338527
+hit@1: 0.06933284627682841
+mrr: 0.2246754386480942
+2022-09-05 10:44:47 Eval Phase evaluate NDCG@1: 0.13500, NDCG@3: 0.20971, NDCG@5: 0.27409, NDCG@10: 0.36855, NDCG@30: 0.47219
+sum_session
+++++++++++ End of batch, remaining pairs 541056.0
+====================
+ 2022-09-05 10:44:50 Epoch54, loss : 0.6176533102989197 
+====================
+2022-09-05 10:44:50 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_54
+2022-09-05 10:44:50 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_54
+2022-09-05 10:44:50 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:44:54 Epoch 54: Eval Phase pairwise corss entropy loss 0.635032, total_paris 179950
+total test: 376
+hit@10: 0.6347338040568803
+hit@3: 0.2353675994460803
+hit@1: 0.06933284627682841
+mrr: 0.22472513489532972
+2022-09-05 10:44:55 Eval Phase evaluate NDCG@1: 0.13400, NDCG@3: 0.21033, NDCG@5: 0.27294, NDCG@10: 0.36894, NDCG@30: 0.47189
+sum_session
+++++++++++ End of batch, remaining pairs 276116.0
+====================
+ 2022-09-05 10:44:58 Epoch55, loss : 0.6265382766723633 
+====================
+2022-09-05 10:44:58 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_55
+2022-09-05 10:44:58 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_55
+2022-09-05 10:44:58 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:02 Epoch 55: Eval Phase pairwise corss entropy loss 0.634621, total_paris 179950
+total test: 376
+hit@10: 0.6373933785249654
+hit@3: 0.234702705829059
+hit@1: 0.06637776353451161
+mrr: 0.22297768937466064
+2022-09-05 10:45:03 Eval Phase evaluate NDCG@1: 0.12969, NDCG@3: 0.20871, NDCG@5: 0.27026, NDCG@10: 0.36817, NDCG@30: 0.47019
+sum_session
+++++++++++ End of batch, remaining pairs 235314.0
+====================
+ 2022-09-05 10:45:05 Epoch56, loss : 0.6242659986019135 
+====================
+2022-09-05 10:45:05 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_56
+2022-09-05 10:45:05 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_56
+2022-09-05 10:45:05 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:06 Epoch 56: Eval Phase pairwise corss entropy loss 0.634207, total_paris 179950
+total test: 376
+hit@10: 0.6379930864932591
+hit@3: 0.234702705829059
+hit@1: 0.06637776353451161
+mrr: 0.22263086019519612
+2022-09-05 10:45:07 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20876, NDCG@5: 0.27099, NDCG@10: 0.36869, NDCG@30: 0.47051
+sum_session
+++++++++++ End of batch, remaining pairs 484998.0
+====================
+ 2022-09-05 10:45:10 Epoch57, loss : 0.6166559159755707 
+====================
+2022-09-05 10:45:10 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_57
+2022-09-05 10:45:10 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_57
+2022-09-05 10:45:10 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:14 Epoch 57: Eval Phase pairwise corss entropy loss 0.633791, total_paris 179950
+total test: 376
+hit@10: 0.6367266224608377
+hit@3: 0.234702705829059
+hit@1: 0.06637776353451161
+mrr: 0.22252167165926856
+2022-09-05 10:45:15 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20869, NDCG@5: 0.27029, NDCG@10: 0.36794, NDCG@30: 0.47030
+sum_session
+++++++++++ End of batch, remaining pairs 177850.0
+====================
+ 2022-09-05 10:45:18 Epoch58, loss : 0.625400573015213 
+====================
+2022-09-05 10:45:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_58
+2022-09-05 10:45:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_58
+2022-09-05 10:45:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:22 Epoch 58: Eval Phase pairwise corss entropy loss 0.633385, total_paris 179950
+total test: 376
+hit@10: 0.6356203288795753
+hit@3: 0.23492433703473278
+hit@1: 0.06637776353451161
+mrr: 0.22255744065357694
+2022-09-05 10:45:22 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20954, NDCG@5: 0.27091, NDCG@10: 0.36817, NDCG@30: 0.47053
+sum_session
+++++++++++ End of batch, remaining pairs 507770.0
+====================
+ 2022-09-05 10:45:25 Epoch59, loss : 0.6149761974811554 
+====================
+2022-09-05 10:45:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_59
+2022-09-05 10:45:26 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_59
+2022-09-05 10:45:26 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:29 Epoch 59: Eval Phase pairwise corss entropy loss 0.633080, total_paris 179950
+total test: 376
+hit@10: 0.6346229884540434
+hit@3: 0.23492433703473278
+hit@1: 0.06637776353451161
+mrr: 0.22264480381114854
+2022-09-05 10:45:30 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20931, NDCG@5: 0.27093, NDCG@10: 0.36790, NDCG@30: 0.47056
+sum_session
+++++++++++ End of batch, remaining pairs 338474.0
+====================
+ 2022-09-05 10:45:33 Epoch60, loss : 0.6151683330535889 
+====================
+2022-09-05 10:45:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_60
+2022-09-05 10:45:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_60
+2022-09-05 10:45:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:37 Epoch 60: Eval Phase pairwise corss entropy loss 0.632784, total_paris 179950
+total test: 376
+hit@10: 0.634507354781518
+hit@3: 0.23492433703473278
+hit@1: 0.06637776353451161
+mrr: 0.22271687959197453
+2022-09-05 10:45:38 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20931, NDCG@5: 0.27189, NDCG@10: 0.36804, NDCG@30: 0.47076
+sum_session
+++++++++++ End of batch, remaining pairs 616264.0
+====================
+ 2022-09-05 10:45:41 Epoch61, loss : 0.6260942220687866 
+====================
+2022-09-05 10:45:41 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_61
+2022-09-05 10:45:41 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_61
+2022-09-05 10:45:41 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:44 Epoch 61: Eval Phase pairwise corss entropy loss 0.632490, total_paris 179950
+total test: 376
+hit@10: 0.6346735781857733
+hit@3: 0.23492433703473278
+hit@1: 0.06637776353451161
+mrr: 0.222810951265158
+2022-09-05 10:45:45 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20931, NDCG@5: 0.27222, NDCG@10: 0.36822, NDCG@30: 0.47118
+sum_session
+++++++++++ End of batch, remaining pairs 506052.0
+====================
+ 2022-09-05 10:45:48 Epoch62, loss : 0.6118394732475281 
+====================
+2022-09-05 10:45:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_62
+2022-09-05 10:45:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_62
+2022-09-05 10:45:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:52 Epoch 62: Eval Phase pairwise corss entropy loss 0.632197, total_paris 179950
+total test: 376
+hit@10: 0.6346735781857733
+hit@3: 0.23492433703473278
+hit@1: 0.06637776353451161
+mrr: 0.22308310611944343
+2022-09-05 10:45:53 Eval Phase evaluate NDCG@1: 0.13171, NDCG@3: 0.20952, NDCG@5: 0.27275, NDCG@10: 0.36856, NDCG@30: 0.47149
+sum_session
+++++++++++ End of batch, remaining pairs 690308.0
+====================
+ 2022-09-05 10:45:56 Epoch63, loss : 0.6156882345676422 
+====================
+2022-09-05 10:45:56 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_63
+2022-09-05 10:45:56 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_63
+2022-09-05 10:45:56 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:45:59 Epoch 63: Eval Phase pairwise corss entropy loss 0.631901, total_paris 179950
+total test: 376
+hit@10: 0.6362451449169144
+hit@3: 0.23492433703473278
+hit@1: 0.06903733800259673
+mrr: 0.22459658998035834
+2022-09-05 10:46:00 Eval Phase evaluate NDCG@1: 0.13437, NDCG@3: 0.21053, NDCG@5: 0.27390, NDCG@10: 0.36986, NDCG@30: 0.47240
+sum_session
+++++++++++ End of batch, remaining pairs 577978.0
+====================
+ 2022-09-05 10:46:03 Epoch64, loss : 0.6149245202541351 
+====================
+2022-09-05 10:46:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_64
+2022-09-05 10:46:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_64
+2022-09-05 10:46:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:07 Epoch 64: Eval Phase pairwise corss entropy loss 0.631611, total_paris 179950
+total test: 376
+hit@10: 0.6360551753120512
+hit@3: 0.23452540086452
+hit@1: 0.06850542310897971
+mrr: 0.22431086519456872
+2022-09-05 10:46:08 Eval Phase evaluate NDCG@1: 0.13425, NDCG@3: 0.20992, NDCG@5: 0.27372, NDCG@10: 0.36963, NDCG@30: 0.47227
+sum_session
+++++++++++ End of batch, remaining pairs 353754.0
+====================
+ 2022-09-05 10:46:11 Epoch65, loss : 0.6119126677513123 
+====================
+2022-09-05 10:46:11 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_65
+2022-09-05 10:46:11 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_65
+2022-09-05 10:46:11 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:14 Epoch 65: Eval Phase pairwise corss entropy loss 0.631325, total_paris 179950
+total test: 376
+hit@10: 0.6347253880780087
+hit@3: 0.23440976719199458
+hit@1: 0.06831545350411648
+mrr: 0.2242343855180921
+2022-09-05 10:46:15 Eval Phase evaluate NDCG@1: 0.13325, NDCG@3: 0.20962, NDCG@5: 0.27416, NDCG@10: 0.36931, NDCG@30: 0.47241
+sum_session
+++++++++++ End of batch, remaining pairs 304994.0
+====================
+ 2022-09-05 10:46:18 Epoch66, loss : 0.6133063435554504 
+====================
+2022-09-05 10:46:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_66
+2022-09-05 10:46:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_66
+2022-09-05 10:46:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:22 Epoch 66: Eval Phase pairwise corss entropy loss 0.631039, total_paris 179950
+total test: 376
+hit@10: 0.6360551753120512
+hit@3: 0.23440976719199458
+hit@1: 0.06831545350411648
+mrr: 0.22423657124950233
+2022-09-05 10:46:22 Eval Phase evaluate NDCG@1: 0.13183, NDCG@3: 0.20925, NDCG@5: 0.27317, NDCG@10: 0.36944, NDCG@30: 0.47203
+sum_session
+++++++++++ End of batch, remaining pairs 475406.0
+====================
+ 2022-09-05 10:46:25 Epoch67, loss : 0.6116963624954224 
+====================
+2022-09-05 10:46:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_67
+2022-09-05 10:46:25 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_67
+2022-09-05 10:46:25 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:29 Epoch 67: Eval Phase pairwise corss entropy loss 0.630744, total_paris 179950
+total test: 376
+hit@10: 0.6362451449169145
+hit@3: 0.23440976719199458
+hit@1: 0.06875871591546401
+mrr: 0.2244021812627427
+2022-09-05 10:46:30 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20966, NDCG@5: 0.27271, NDCG@10: 0.36961, NDCG@30: 0.47211
+sum_session
+++++++++++ End of batch, remaining pairs 256498.0
+====================
+ 2022-09-05 10:46:33 Epoch68, loss : 0.6186477243900299 
+====================
+2022-09-05 10:46:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_68
+2022-09-05 10:46:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_68
+2022-09-05 10:46:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:37 Epoch 68: Eval Phase pairwise corss entropy loss 0.630457, total_paris 179950
+total test: 376
+hit@10: 0.6362451449169145
+hit@3: 0.23352324236929958
+hit@1: 0.06875871591546401
+mrr: 0.22449289971966602
+2022-09-05 10:46:37 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20894, NDCG@5: 0.27381, NDCG@10: 0.36975, NDCG@30: 0.47229
+sum_session
+++++++++++ End of batch, remaining pairs 548754.0
+====================
+ 2022-09-05 10:46:40 Epoch69, loss : 0.6079113185405731 
+====================
+2022-09-05 10:46:40 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_69
+2022-09-05 10:46:40 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_69
+2022-09-05 10:46:40 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:44 Epoch 69: Eval Phase pairwise corss entropy loss 0.630237, total_paris 179950
+total test: 376
+hit@10: 0.6351813151296806
+hit@3: 0.23352324236929958
+hit@1: 0.06875871591546401
+mrr: 0.2245435851546814
+2022-09-05 10:46:45 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20894, NDCG@5: 0.27462, NDCG@10: 0.37006, NDCG@30: 0.47239
+sum_session
+++++++++++ End of batch, remaining pairs 258918.0
+====================
+ 2022-09-05 10:46:48 Epoch70, loss : 0.6170748770236969 
+====================
+2022-09-05 10:46:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_70
+2022-09-05 10:46:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_70
+2022-09-05 10:46:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:51 Epoch 70: Eval Phase pairwise corss entropy loss 0.630022, total_paris 179950
+total test: 376
+hit@10: 0.6358462087467018
+hit@3: 0.23352324236929958
+hit@1: 0.06875871591546401
+mrr: 0.22456716352030984
+2022-09-05 10:46:52 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20894, NDCG@5: 0.27459, NDCG@10: 0.37050, NDCG@30: 0.47245
+sum_session
+++++++++++ End of batch, remaining pairs 233742.0
+====================
+ 2022-09-05 10:46:55 Epoch71, loss : 0.6159214973449707 
+====================
+2022-09-05 10:46:55 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_71
+2022-09-05 10:46:55 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_71
+2022-09-05 10:46:55 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:46:59 Epoch 71: Eval Phase pairwise corss entropy loss 0.629812, total_paris 179950
+total test: 376
+hit@10: 0.6358462087467018
+hit@3: 0.2358028776276582
+hit@1: 0.06875871591546401
+mrr: 0.22489603156092525
+2022-09-05 10:47:00 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.21034, NDCG@5: 0.27593, NDCG@10: 0.37136, NDCG@30: 0.47281
+sum_session
+++++++++++ End of batch, remaining pairs 252642.0
+====================
+ 2022-09-05 10:47:03 Epoch72, loss : 0.6219437718391418 
+====================
+2022-09-05 10:47:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_72
+2022-09-05 10:47:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_72
+2022-09-05 10:47:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:06 Epoch 72: Eval Phase pairwise corss entropy loss 0.629603, total_paris 179950
+total test: 376
+hit@10: 0.6361248308338345
+hit@3: 0.2357142251453887
+hit@1: 0.06875871591546401
+mrr: 0.22483263295719053
+2022-09-05 10:47:07 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.21003, NDCG@5: 0.27506, NDCG@10: 0.37130, NDCG@30: 0.47266
+sum_session
+++++++++++ End of batch, remaining pairs 358082.0
+====================
+ 2022-09-05 10:47:10 Epoch73, loss : 0.6085488796234131 
+====================
+2022-09-05 10:47:10 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_73
+2022-09-05 10:47:10 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_73
+2022-09-05 10:47:10 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:14 Epoch 73: Eval Phase pairwise corss entropy loss 0.629397, total_paris 179950
+total test: 376
+hit@10: 0.6367897244508558
+hit@3: 0.2361574875567362
+hit@1: 0.06875871591546401
+mrr: 0.2249757576169358
+2022-09-05 10:47:15 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.21047, NDCG@5: 0.27494, NDCG@10: 0.37200, NDCG@30: 0.47292
+sum_session
+++++++++++ End of batch, remaining pairs 313114.0
+====================
+ 2022-09-05 10:47:18 Epoch74, loss : 0.6056865453720093 
+====================
+2022-09-05 10:47:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_74
+2022-09-05 10:47:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_74
+2022-09-05 10:47:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:21 Epoch 74: Eval Phase pairwise corss entropy loss 0.629194, total_paris 179950
+total test: 376
+hit@10: 0.6367897244508558
+hit@3: 0.2352709627340412
+hit@1: 0.06875871591546401
+mrr: 0.22496193140648804
+2022-09-05 10:47:22 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20985, NDCG@5: 0.27497, NDCG@10: 0.37202, NDCG@30: 0.47295
+sum_session
+++++++++++ End of batch, remaining pairs 518152.0
+====================
+ 2022-09-05 10:47:25 Epoch75, loss : 0.6104362607002258 
+====================
+2022-09-05 10:47:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_75
+2022-09-05 10:47:25 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_75
+2022-09-05 10:47:25 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:29 Epoch 75: Eval Phase pairwise corss entropy loss 0.628982, total_paris 179950
+total test: 376
+hit@10: 0.6359031996281608
+hit@3: 0.2352709627340412
+hit@1: 0.06875871591546401
+mrr: 0.22497725073809738
+2022-09-05 10:47:30 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20985, NDCG@5: 0.27497, NDCG@10: 0.37180, NDCG@30: 0.47296
+sum_session
+++++++++++ End of batch, remaining pairs 622484.0
+====================
+ 2022-09-05 10:47:33 Epoch76, loss : 0.6165801584720612 
+====================
+2022-09-05 10:47:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_76
+2022-09-05 10:47:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_76
+2022-09-05 10:47:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:36 Epoch 76: Eval Phase pairwise corss entropy loss 0.628775, total_paris 179950
+total test: 376
+hit@10: 0.6359031996281608
+hit@3: 0.23394117549999865
+hit@1: 0.06875871591546401
+mrr: 0.22488068284566762
+2022-09-05 10:47:37 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20961, NDCG@5: 0.27494, NDCG@10: 0.37179, NDCG@30: 0.47295
+sum_session
+++++++++++ End of batch, remaining pairs 334648.0
+====================
+ 2022-09-05 10:47:40 Epoch77, loss : 0.6046520471572876 
+====================
+2022-09-05 10:47:40 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_77
+2022-09-05 10:47:40 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_77
+2022-09-05 10:47:40 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:44 Epoch 77: Eval Phase pairwise corss entropy loss 0.628572, total_paris 179950
+total test: 376
+hit@10: 0.6367897244508558
+hit@3: 0.23383479252127523
+hit@1: 0.06875871591546401
+mrr: 0.22495312190536382
+2022-09-05 10:47:45 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20952, NDCG@5: 0.27515, NDCG@10: 0.37248, NDCG@30: 0.47309
+sum_session
+++++++++++ End of batch, remaining pairs 300524.0
+====================
+ 2022-09-05 10:47:48 Epoch78, loss : 0.6084651350975037 
+====================
+2022-09-05 10:47:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_78
+2022-09-05 10:47:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_78
+2022-09-05 10:47:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:51 Epoch 78: Eval Phase pairwise corss entropy loss 0.628362, total_paris 179950
+total test: 376
+hit@10: 0.6367897244508558
+hit@3: 0.23383479252127523
+hit@1: 0.06875871591546401
+mrr: 0.22503433689047214
+2022-09-05 10:47:52 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20952, NDCG@5: 0.27602, NDCG@10: 0.37256, NDCG@30: 0.47321
+sum_session
+++++++++++ End of batch, remaining pairs 497410.0
+====================
+ 2022-09-05 10:47:55 Epoch79, loss : 0.6084484755992889 
+====================
+2022-09-05 10:47:55 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_79
+2022-09-05 10:47:55 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_79
+2022-09-05 10:47:55 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:47:59 Epoch 79: Eval Phase pairwise corss entropy loss 0.628198, total_paris 179950
+total test: 376
+hit@10: 0.6395337298544356
+hit@3: 0.23383479252127523
+hit@1: 0.06875871591546401
+mrr: 0.22554690793371765
+2022-09-05 10:48:00 Eval Phase evaluate NDCG@1: 0.13209, NDCG@3: 0.20987, NDCG@5: 0.27637, NDCG@10: 0.37360, NDCG@30: 0.47366
+sum_session
+++++++++++ End of batch, remaining pairs 304480.0
+====================
+ 2022-09-05 10:48:03 Epoch80, loss : 0.6085265278816223 
+====================
+2022-09-05 10:48:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_80
+2022-09-05 10:48:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_80
+2022-09-05 10:48:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:06 Epoch 80: Eval Phase pairwise corss entropy loss 0.628039, total_paris 179950
+total test: 376
+hit@10: 0.6399769922657832
+hit@3: 0.2344996861382965
+hit@1: 0.06875871591546401
+mrr: 0.2256185943744618
+2022-09-05 10:48:07 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21052, NDCG@5: 0.27664, NDCG@10: 0.37390, NDCG@30: 0.47396
+sum_session
+++++++++++ End of batch, remaining pairs 217160.0
+====================
+ 2022-09-05 10:48:10 Epoch81, loss : 0.6113509833812714 
+====================
+2022-09-05 10:48:10 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_81
+2022-09-05 10:48:10 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_81
+2022-09-05 10:48:10 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:14 Epoch 81: Eval Phase pairwise corss entropy loss 0.627878, total_paris 179950
+total test: 376
+hit@10: 0.6399769922657832
+hit@3: 0.2344996861382965
+hit@1: 0.06875871591546401
+mrr: 0.2255155407682555
+2022-09-05 10:48:15 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21083, NDCG@5: 0.27661, NDCG@10: 0.37383, NDCG@30: 0.47389
+sum_session
+++++++++++ End of batch, remaining pairs 512612.0
+====================
+ 2022-09-05 10:48:18 Epoch82, loss : 0.6060367524623871 
+====================
+2022-09-05 10:48:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_82
+2022-09-05 10:48:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_82
+2022-09-05 10:48:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:21 Epoch 82: Eval Phase pairwise corss entropy loss 0.627713, total_paris 179950
+total test: 376
+hit@10: 0.6396445454572726
+hit@3: 0.2344996861382965
+hit@1: 0.06875871591546401
+mrr: 0.22551345607669443
+2022-09-05 10:48:22 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21083, NDCG@5: 0.27661, NDCG@10: 0.37377, NDCG@30: 0.47390
+sum_session
+++++++++++ End of batch, remaining pairs 330644.0
+====================
+ 2022-09-05 10:48:25 Epoch83, loss : 0.6073993742465973 
+====================
+2022-09-05 10:48:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_83
+2022-09-05 10:48:25 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_83
+2022-09-05 10:48:25 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:29 Epoch 83: Eval Phase pairwise corss entropy loss 0.627553, total_paris 179950
+total test: 376
+hit@10: 0.6398345150621357
+hit@3: 0.2344996861382965
+hit@1: 0.06875871591546401
+mrr: 0.22550698963625745
+2022-09-05 10:48:30 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21083, NDCG@5: 0.27661, NDCG@10: 0.37380, NDCG@30: 0.47390
+sum_session
+++++++++++ End of batch, remaining pairs 558446.0
+====================
+ 2022-09-05 10:48:33 Epoch84, loss : 0.6066431403160095 
+====================
+2022-09-05 10:48:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_84
+2022-09-05 10:48:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_84
+2022-09-05 10:48:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:36 Epoch 84: Eval Phase pairwise corss entropy loss 0.627389, total_paris 179950
+total test: 376
+hit@10: 0.6398345150621357
+hit@3: 0.2344996861382965
+hit@1: 0.06875871591546401
+mrr: 0.22559774300905971
+2022-09-05 10:48:37 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21083, NDCG@5: 0.27696, NDCG@10: 0.37386, NDCG@30: 0.47398
+sum_session
+++++++++++ End of batch, remaining pairs 634736.0
+====================
+ 2022-09-05 10:48:40 Epoch85, loss : 0.6156629621982574 
+====================
+2022-09-05 10:48:40 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_85
+2022-09-05 10:48:40 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_85
+2022-09-05 10:48:40 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:44 Epoch 85: Eval Phase pairwise corss entropy loss 0.627219, total_paris 179950
+total test: 376
+hit@10: 0.6385047278280932
+hit@3: 0.23472131734397025
+hit@1: 0.06875871591546401
+mrr: 0.22578139466093627
+2022-09-05 10:48:45 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21173, NDCG@5: 0.27731, NDCG@10: 0.37370, NDCG@30: 0.47425
+sum_session
+++++++++++ End of batch, remaining pairs 616440.0
+====================
+ 2022-09-05 10:48:48 Epoch86, loss : 0.6143547594547272 
+====================
+2022-09-05 10:48:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_86
+2022-09-05 10:48:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_86
+2022-09-05 10:48:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:51 Epoch 86: Eval Phase pairwise corss entropy loss 0.627051, total_paris 179950
+total test: 376
+hit@10: 0.6388846670378197
+hit@3: 0.23472131734397025
+hit@1: 0.06875871591546401
+mrr: 0.22582238984327038
+2022-09-05 10:48:52 Eval Phase evaluate NDCG@1: 0.13310, NDCG@3: 0.21173, NDCG@5: 0.27731, NDCG@10: 0.37413, NDCG@30: 0.47433
+sum_session
+++++++++++ End of batch, remaining pairs 386482.0
+====================
+ 2022-09-05 10:48:55 Epoch87, loss : 0.6053464412689209 
+====================
+2022-09-05 10:48:55 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_87
+2022-09-05 10:48:55 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_87
+2022-09-05 10:48:55 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:48:59 Epoch 87: Eval Phase pairwise corss entropy loss 0.626888, total_paris 179950
+total test: 376
+hit@10: 0.6388846670378197
+hit@3: 0.23472131734397025
+hit@1: 0.06875871591546401
+mrr: 0.22583548333490236
+2022-09-05 10:49:00 Eval Phase evaluate NDCG@1: 0.13248, NDCG@3: 0.21151, NDCG@5: 0.27711, NDCG@10: 0.37398, NDCG@30: 0.47420
+sum_session
+++++++++++ End of batch, remaining pairs 573616.0
+====================
+ 2022-09-05 10:49:03 Epoch88, loss : 0.6104778051376343 
+====================
+2022-09-05 10:49:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_88
+2022-09-05 10:49:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_88
+2022-09-05 10:49:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:06 Epoch 88: Eval Phase pairwise corss entropy loss 0.626723, total_paris 179950
+total test: 376
+hit@10: 0.6388846670378197
+hit@3: 0.23405642372694896
+hit@1: 0.06875871591546401
+mrr: 0.22568239969664933
+2022-09-05 10:49:07 Eval Phase evaluate NDCG@1: 0.13248, NDCG@3: 0.21043, NDCG@5: 0.27666, NDCG@10: 0.37374, NDCG@30: 0.47401
+sum_session
+++++++++++ End of batch, remaining pairs 667598.0
+====================
+ 2022-09-05 10:49:10 Epoch89, loss : 0.6163947582244873 
+====================
+2022-09-05 10:49:10 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_89
+2022-09-05 10:49:10 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_89
+2022-09-05 10:49:10 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:14 Epoch 89: Eval Phase pairwise corss entropy loss 0.626595, total_paris 179950
+total test: 376
+hit@10: 0.6388846670378197
+hit@3: 0.23405642372694896
+hit@1: 0.06742892868142145
+mrr: 0.22508443868606307
+2022-09-05 10:49:15 Eval Phase evaluate NDCG@1: 0.13210, NDCG@3: 0.21028, NDCG@5: 0.27605, NDCG@10: 0.37363, NDCG@30: 0.47399
+sum_session
+++++++++++ End of batch, remaining pairs 340598.0
+====================
+ 2022-09-05 10:49:18 Epoch90, loss : 0.6069465577602386 
+====================
+2022-09-05 10:49:18 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_90
+2022-09-05 10:49:18 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_90
+2022-09-05 10:49:18 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:21 Epoch 90: Eval Phase pairwise corss entropy loss 0.626471, total_paris 179950
+total test: 376
+hit@10: 0.6388846670378197
+hit@3: 0.23405642372694896
+hit@1: 0.06875871591546401
+mrr: 0.2257523529040331
+2022-09-05 10:49:22 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21106, NDCG@5: 0.27676, NDCG@10: 0.37439, NDCG@30: 0.47475
+sum_session
+++++++++++ End of batch, remaining pairs 246424.0
+====================
+ 2022-09-05 10:49:25 Epoch91, loss : 0.612106055021286 
+====================
+2022-09-05 10:49:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_91
+2022-09-05 10:49:25 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_91
+2022-09-05 10:49:25 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:29 Epoch 91: Eval Phase pairwise corss entropy loss 0.626348, total_paris 179950
+total test: 376
+hit@10: 0.6397711918605147
+hit@3: 0.23538621096099152
+hit@1: 0.06875871591546401
+mrr: 0.22589106484278856
+2022-09-05 10:49:30 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21210, NDCG@5: 0.27691, NDCG@10: 0.37466, NDCG@30: 0.47491
+sum_session
+++++++++++ End of batch, remaining pairs 278562.0
+====================
+ 2022-09-05 10:49:33 Epoch92, loss : 0.6116045415401459 
+====================
+2022-09-05 10:49:33 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_92
+2022-09-05 10:49:33 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_92
+2022-09-05 10:49:33 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:36 Epoch 92: Eval Phase pairwise corss entropy loss 0.626226, total_paris 179950
+total test: 376
+hit@10: 0.6397711918605147
+hit@3: 0.23538621096099152
+hit@1: 0.06875871591546401
+mrr: 0.22590640016719202
+2022-09-05 10:49:37 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21210, NDCG@5: 0.27691, NDCG@10: 0.37471, NDCG@30: 0.47492
+sum_session
+++++++++++ End of batch, remaining pairs 484066.0
+====================
+ 2022-09-05 10:49:40 Epoch93, loss : 0.605221301317215 
+====================
+2022-09-05 10:49:40 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_93
+2022-09-05 10:49:40 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_93
+2022-09-05 10:49:40 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:44 Epoch 93: Eval Phase pairwise corss entropy loss 0.626102, total_paris 179950
+total test: 376
+hit@10: 0.6403031067541317
+hit@3: 0.23538621096099152
+hit@1: 0.06875871591546401
+mrr: 0.22592831663261398
+2022-09-05 10:49:45 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21210, NDCG@5: 0.27691, NDCG@10: 0.37490, NDCG@30: 0.47494
+sum_session
+++++++++++ End of batch, remaining pairs 223320.0
+====================
+ 2022-09-05 10:49:48 Epoch94, loss : 0.6154760122299194 
+====================
+2022-09-05 10:49:48 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_94
+2022-09-05 10:49:48 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_94
+2022-09-05 10:49:48 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:51 Epoch 94: Eval Phase pairwise corss entropy loss 0.625984, total_paris 179950
+total test: 376
+hit@10: 0.6403031067541317
+hit@3: 0.23538621096099152
+hit@1: 0.06875871591546401
+mrr: 0.22592282594586063
+2022-09-05 10:49:52 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21210, NDCG@5: 0.27691, NDCG@10: 0.37490, NDCG@30: 0.47492
+sum_session
+++++++++++ End of batch, remaining pairs 225362.0
+====================
+ 2022-09-05 10:49:55 Epoch95, loss : 0.6141481697559357 
+====================
+2022-09-05 10:49:55 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_95
+2022-09-05 10:49:55 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_95
+2022-09-05 10:49:55 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:49:59 Epoch 95: Eval Phase pairwise corss entropy loss 0.625865, total_paris 179950
+total test: 376
+hit@10: 0.6403031067541317
+hit@3: 0.23538621096099152
+hit@1: 0.06875871591546401
+mrr: 0.22618242437647237
+2022-09-05 10:50:00 Eval Phase evaluate NDCG@1: 0.13476, NDCG@3: 0.21238, NDCG@5: 0.27764, NDCG@10: 0.37521, NDCG@30: 0.47525
+sum_session
+++++++++++ End of batch, remaining pairs 334874.0
+====================
+ 2022-09-05 10:50:03 Epoch96, loss : 0.604689747095108 
+====================
+2022-09-05 10:50:03 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_96
+2022-09-05 10:50:03 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_96
+2022-09-05 10:50:03 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:50:06 Epoch 96: Eval Phase pairwise corss entropy loss 0.625748, total_paris 179950
+total test: 376
+hit@10: 0.6418545251938481
+hit@3: 0.23538621096099152
+hit@1: 0.06837877670573755
+mrr: 0.22603908181397292
+2022-09-05 10:50:07 Eval Phase evaluate NDCG@1: 0.13347, NDCG@3: 0.21224, NDCG@5: 0.27751, NDCG@10: 0.37541, NDCG@30: 0.47516
+sum_session
+++++++++++ End of batch, remaining pairs 536894.0
+====================
+ 2022-09-05 10:50:10 Epoch97, loss : 0.6080308258533478 
+====================
+2022-09-05 10:50:10 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_97
+2022-09-05 10:50:10 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_97
+2022-09-05 10:50:10 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:50:14 Epoch 97: Eval Phase pairwise corss entropy loss 0.625631, total_paris 179950
+total test: 376
+hit@10: 0.6418545251938481
+hit@3: 0.235766150170718
+hit@1: 0.06837877670573755
+mrr: 0.2260003077731374
+2022-09-05 10:50:15 Eval Phase evaluate NDCG@1: 0.13347, NDCG@3: 0.21266, NDCG@5: 0.27594, NDCG@10: 0.37533, NDCG@30: 0.47505
+sum_session
+++++++++++ End of batch, remaining pairs 230250.0
+====================
+ 2022-09-05 10:50:16 Epoch98, loss : 0.6140388548374176 
+====================
+2022-09-05 10:50:16 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_98
+2022-09-05 10:50:16 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_98
+2022-09-05 10:50:16 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:50:17 Epoch 98: Eval Phase pairwise corss entropy loss 0.625516, total_paris 179950
+total test: 376
+hit@10: 0.6418545251938481
+hit@3: 0.235766150170718
+hit@1: 0.06837877670573755
+mrr: 0.22601940077809926
+2022-09-05 10:50:18 Eval Phase evaluate NDCG@1: 0.13347, NDCG@3: 0.21266, NDCG@5: 0.27594, NDCG@10: 0.37540, NDCG@30: 0.47511
+sum_session
+++++++++++ End of batch, remaining pairs 350698.0
+====================
+ 2022-09-05 10:50:21 Epoch99, loss : 0.6027722060680389 
+====================
+2022-09-05 10:50:21 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_99
+2022-09-05 10:50:21 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_99
+2022-09-05 10:50:21 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:50:25 Epoch 99: Eval Phase pairwise corss entropy loss 0.625429, total_paris 179950
+total test: 376
+hit@10: 0.6422977876051956
+hit@3: 0.235766150170718
+hit@1: 0.06837877670573755
+mrr: 0.22603526343299532
+2022-09-05 10:50:25 Eval Phase evaluate NDCG@1: 0.13347, NDCG@3: 0.21266, NDCG@5: 0.27594, NDCG@10: 0.37551, NDCG@30: 0.47514
+2022-09-05 10:50:25 save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_100
+2022-09-05 10:50:25 finish save to ckpt /home/fsy/fsy/paper/DRONet_sum/LTR/models/RankNet/ckptdir/ranknet-factorize-100-64-16_100
+2022-09-05 10:50:25 Eval Phase evaluate pairwise cross entropy loss
+2022-09-05 10:50:29 Epoch 100: Eval Phase pairwise corss entropy loss 0.625429, total_paris 179950
+total test: 376
+hit@10: 0.6422977876051956
+hit@3: 0.235766150170718
+hit@1: 0.06837877670573755
+mrr: 0.22603526343299532
+2022-09-05 10:50:30 Eval Phase evaluate NDCG@1: 0.13347, NDCG@3: 0.21266, NDCG@5: 0.27594, NDCG@10: 0.37551, NDCG@30: 0.47514
+2022-09-05 10:50:30 finish training NDCG@1: 0.13347, NDCG@3: 0.21266, NDCG@5: 0.27594, NDCG@10: 0.37551, NDCG@30: 0.47514 
+
+ [0.6422977876051956, 0.235766150170718, 0.06837877670573755, 0.22603526343299532]

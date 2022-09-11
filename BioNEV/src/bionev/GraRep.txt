@@ -1,0 +1,23 @@
+nohup: ignoring input
+######################################################################
+Embedding Method: GraRep, Evaluation Task: none
+######################################################################
+Loading training graph for learning embedding...
+Graph Loaded...
+Kstep = 0
+/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/grarep.py:33: RuntimeWarning: divide by zero encountered in log
+  probTranMat = np.log(Ak / tileMat) - np.log(1.0 / self.node_size)
+Kstep = 1
+/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/grarep.py:33: RuntimeWarning: divide by zero encountered in log
+  probTranMat = np.log(Ak / tileMat) - np.log(1.0 / self.node_size)
+Kstep = 2
+/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/grarep.py:33: RuntimeWarning: divide by zero encountered in log
+  probTranMat = np.log(Ak / tileMat) - np.log(1.0 / self.node_size)
+Kstep = 3
+/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/grarep.py:33: RuntimeWarning: divide by zero encountered in log
+  probTranMat = np.log(Ak / tileMat) - np.log(1.0 / self.node_size)
+Kstep = 4
+/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/src/bionev/OpenNE/grarep.py:33: RuntimeWarning: divide by zero encountered in log
+  probTranMat = np.log(Ak / tileMat) - np.log(1.0 / self.node_size)
+Saving embeddings...
+Embedding Learning Time: 1.35 s
