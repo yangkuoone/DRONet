@@ -57,7 +57,7 @@ nohup python -u main.py --method DeepWalk --input bp+'mydata/graph+dis+drug.edge
 - test_1v5.txt：A test dataset of learning to rank where the ratio of positive and negative samples is 1:5
 #### 4.2.3 Running
 ```
-nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.txt' --input_test './mydata/test_1v5.txt' --output './resultdata/RankNet/example_RankNet_1v1.txt'> test_res.txt 2>&1 &
+nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.txt' --input_test './mydata/test_1v5.txt' --output './resultdata/LambRank/example_LambRank_1v5.txt'> test_res.txt 2>&1 &
 ```
 - --method, the learning to rank method (i.e., LambdaMART, LambdaRank, RankNet).
 - --number, the number of regression tree. The default is 0.2
