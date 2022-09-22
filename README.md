@@ -20,7 +20,7 @@ The network embedding learning uses the code from [BioNEV](https://github.com/xi
 - graph_drug.edgelist：a drug-drug association data that utilizes cosine similarity to obtain target-based drug similarity
 #### 4.1.2 Running
 ```
-nohup python -u main.py --method DeepWalk --input '../mydata/graph+dis+drug.edgelist' --output '../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
+nohup python -u main.py --method DeepWalk --input '../../mydata/graph+dis+drug.edgelist' --output '../../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
 ```
 - --input, input graph file. Only accepted edgelist format.
 - --output, output graph embedding file.
