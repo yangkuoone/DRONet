@@ -13,8 +13,6 @@ from embed_train import embedding_training, load_embedding, read_node_labels, sp
 from evaluation import LinkPrediction, NodeClassification
 from scipy.spatial import distance
 from tqdm import tqdm
-result=open("/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/mydata/result.txt",'w',encoding='utf8')
-bp='/home/fsy/fsy/paper/DRONet_sum/new_BioNEV/'
 
 
 def parse_args():
@@ -149,4 +147,3 @@ def more_main():
 
 if __name__ == "__main__":
     more_main()
-    result.close()
