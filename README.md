@@ -20,7 +20,7 @@ The network embedding learning uses the code from [BioNEV](https://github.com/xi
 - graph_drug.edgelist：a drug-drug association data that utilizes cosine similarity to obtain target-based drug similarity
 #### 4.1.2 Running
 ```
-nohup python -u main.py --method DeepWalk --input '../../mydata/graph+dis+drug.edgelist' --output '../../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
+nohup python -u main.py --method DeepWalk --input '../../mydata2/graph+dis+drug.edgelist' --output '../../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
 ```
 - --input, input graph file. Only accepted edgelist format.
 - --output, output graph embedding file.
@@ -57,7 +57,7 @@ nohup python -u main.py --method DeepWalk --input '../../mydata/graph+dis+drug.e
 - test_1v5.txt：A test dataset of learning to rank where the ratio of positive and negative samples is 1:5
 #### 4.2.3 Running
 ```
-nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.txt' --input_test './mydata/test_1v5.txt' --output './resultdata/LambRank/example_LambRank_1v5.txt'> test_res.txt 2>&1 &
+nohup python -u main.py --method LambdaRank --input_train './mydata2/train_1v5.txt' --input_test './mydata2/test_1v5.txt' --output './resultdata/LambRank/example_LambRank_1v5.txt'> test_res.txt 2>&1 &
 ```
 - --method, the learning to rank method (i.e., LambdaMART, LambdaRank, RankNet).
 - --number, the number of regression tree. The default is 0.2
@@ -81,10 +81,5 @@ nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.tx
 - --train_algo. The default is SUM_SESSION.
 
 ## 5. Experimental results
-Table 1 showed the experimental performance of DRONet reported in the paper. The experimental data were deposited in LTR/mydata1 and BioNEV/mydata1.
-
-![alt text](img/old performance comparison of drug repositioning methods.png "old performance comparison of drug repositioning methods")
- 
-Table 2 showed the performance of DRONet with an updated experimental data set. The updated data were deposited in LTR/mydata2 and BioNEV/mydata2.
-
-![alt text](img/New performance comparison of drug repositioning methods.png)
+![alt text](https://github.com/yangkuoone/DRONet/main/img/New performance comparison of drug repositioning methods.png)
+![alt text](img/fig1.jpg "fig1")
