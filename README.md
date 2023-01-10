@@ -20,7 +20,7 @@ The network embedding learning uses the code from [BioNEV](https://github.com/xi
 - graph_drug.edgelist：a drug-drug association data that utilizes cosine similarity to obtain target-based drug similarity
 #### 4.1.2 Running
 ```
-nohup python -u main.py --method DeepWalk --input '../../mydata/graph+dis+drug.edgelist' --output '../../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
+nohup python -u main.py --method DeepWalk --input '../../mydata2/graph+dis+drug.edgelist' --output '../../result/DeepWalk/graph+dis+drug_100_embeddings.txt' > DeepWalk.txt 2>&1 &
 ```
 - --input, input graph file. Only accepted edgelist format.
 - --output, output graph embedding file.
@@ -57,7 +57,7 @@ nohup python -u main.py --method DeepWalk --input '../../mydata/graph+dis+drug.e
 - test_1v5.txt：A test dataset of learning to rank where the ratio of positive and negative samples is 1:5
 #### 4.2.3 Running
 ```
-nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.txt' --input_test './mydata/test_1v5.txt' --output './resultdata/LambRank/example_LambRank_1v5.txt'> test_res.txt 2>&1 &
+nohup python -u main.py --method LambdaRank --input_train './mydata2/train_1v5.txt' --input_test './mydata2/test_1v5.txt' --output './resultdata/LambRank/example_LambRank_1v5.txt'> test_res.txt 2>&1 &
 ```
 - --method, the learning to rank method (i.e., LambdaMART, LambdaRank, RankNet).
 - --number, the number of regression tree. The default is 0.2
