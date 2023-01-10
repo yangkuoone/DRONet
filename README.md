@@ -81,5 +81,7 @@ nohup python -u main.py --method LambdaRank --input_train './mydata2/train_1v5.t
 - --train_algo. The default is SUM_SESSION.
 
 ## 5. Experimental results
-![alt text](https://github.com/yangkuoone/DRONet/main/img/New performance comparison of drug repositioning methods.png)
-![alt text](img/fig1.jpg "fig1")
+
+![alt text](img/old.png "old")
+
+![alt text](img/new.jpg "new")
