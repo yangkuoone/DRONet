@@ -82,8 +82,8 @@ nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.tx
 ## 5. Experimental results
 Table 1 showed the experimental performance of DRONet reported in the paper. The experimental data were deposited in LTR/mydata1 and BioNEV/mydata1.
 
- ![image](https://github.com/yangkuoone/DRONet/blob/main/img/old%20performance%20comparison%20of%20drug%20repositioning%20methods.png)
+![alt text](img/old performance comparison of drug repositioning methods.png "old performance comparison of drug repositioning methods")
  
 Table 2 showed the performance of DRONet with an updated experimental data set. The updated data were deposited in LTR/mydata2 and BioNEV/mydata2.
 
-![image](https://github.com/yangkuoone/DRONet/blob/main/img/New%20performance%20comparison%20of%20drug%20repositioning%20methods.png)
+![alt text](img/New performance comparison of drug repositioning methods.png)
