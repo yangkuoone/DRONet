@@ -79,3 +79,8 @@ nohup python -u main.py --method LambdaRank --input_train './mydata/train_1v5.tx
 - --standardize. The default is False.
 - --output_dir The default is "/tmp/ranking_output/".
 - --train_algo. The default is SUM_SESSION.
+## 1. Experimental results
+Table 1 showed the experimental performance of DRONet reported in the paper. The experimental data were deposited in LTR/mydata1 and BioNEV/mydata1.
+![alt text](img/old performance comparison of drug repositioning methods.png "old performance comparison of drug repositioning methods")
+Table 2 showed the performance of DRONet with an updated experimental data set. The updated data were deposited in LTR/mydata2 and BioNEV/mydata2.
+![alt text](img/New performance comparison of drug repositioning methods.png "New performance comparison of drug repositioning methods")
